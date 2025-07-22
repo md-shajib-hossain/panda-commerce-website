@@ -215,7 +215,6 @@
   padding: 10px;
 }
 .footer-sec {
-  background-color: rgb(202, 216, 212);
   padding: 120px;
 }
 .footer-content {
@@ -248,6 +247,8 @@
   border-radius: 0px 10px 10px 0px;
 }
 
+/*  Responsive for mobile */ /*  Responsive for mobile */
+/*  Responsive for mobile */
 /*  Responsive for mobile */
 
 @media screen and (max-width: 576px) {
@@ -259,12 +260,16 @@
   }
   .nav-links {
     flex-direction: column;
+    padding: 0;
   }
   .hero-section {
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
     gap: 20px;
+  }
+  .hero-left-items h1 {
+    font-size: 2.5rem;
   }
   .hero-left-items {
     text-align: center;
