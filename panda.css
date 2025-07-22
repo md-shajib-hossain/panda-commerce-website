@@ -1,0 +1,238 @@
+/* google font stylles */
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+/*  shared style */
+/* .btn-primary{
+    background-color: #FF136F;
+    color: white;
+    border-radius: 6px;
+    padding: 16px 25px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+} */
+
+.black-btn{
+    background-color: rgba(0, 0, 0, 0.712);
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+}
+*{
+    max-width: 1480px;
+    margin: 5px auto;
+    box-sizing: border-box;
+}
+
+/* Nac styles starts  */
+
+.nav-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 50px auto;
+    background-color:rgba(86, 174, 209, 0.159);
+    
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-links li{
+    list-style: none;
+    color: #707070;
+}
+.search-bar{
+    width: 510px;
+    height: 35px;
+    font-size: 18px;
+    background-color: #bababa64;
+    border-radius: 66px;
+    border: none;
+    padding: 10px 30px;
+        position: relative;
+}
+.nav-parent i {
+    position:absolute;
+    top:11px;
+    right: 515px;
+    color: #707070;
+}
+
+/* hero section styles */
+
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FEEAE9;
+    padding: 38px 63px 39px 46px;
+    border-radius: 20px;
+    gap: 140px;
+
+}
+.hero-section img{
+    width: 402px;
+    height: 378px;
+}
+.hero-section h1{
+    font-weight: bold;
+    font-size: 56px;
+}
+.hero-section p{
+    color: #4E4E4E;
+}
+.hero-section span{
+    font-size: 41px;
+    font-weight: 600;
+    color: #FF136F;
+    display: block;
+}
+.hero-section button{
+    background-color: #FF136F;
+    color: white;
+    border-radius: 6px;
+    padding: 16px 25px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* Catagory section starts */
+.catagory-heading{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 35px;
+}
+.catagory-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);;
+    width: 360px;
+    height: 120px;
+    padding: 15px;
+    border-radius: 10px;
+    gap: 100px;
+}
+.shoes{
+    /* Linear */
+background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 360px;
+    height: 120px;
+    padding: 15px;
+    border-radius: 10px;
+    gap: 100px;
+    margin-bottom: 50px;
+    
+}
+.bags{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+    width: 360px;
+    height: 120px;
+    padding: 15px;
+    border-radius: 10px;
+    gap: 100px;
+}
+.catagory-container h3{
+    color: white;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.catagory-container img{
+    width: 100px;
+    height: 100px;
+}
+.catagories{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*  Shoe section */
+.shoe-sec-heading{
+    font-size: 22px;
+    margin-left: 30px;
+}
+.card-container img{
+    width: 336px;
+    height: 202px;
+}
+.card-container h3{
+    font-size: 24px;
+}
+.card-container p{
+    font-size: 16px;
+    color: #4E4E4E;
+}
+.price{
+    font-size: 24px;
+    font-weight: 600;
+    display: block;
+}
+.shoe-section{
+    background-color:#F4F4F4;
+    display: flex;
+    justify-content: center;
+    max-Width: 1440px;
+    Height: 500px;
+    border-radius: 20px;
+}
+
+.card-container{
+    text-align: center;
+    width: 360px;
+    height: 450px;
+    gap: 24px;
+    border: 1px solid rgb(253, 253, 253);
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.footer-sec{
+    background-color: rgb(202, 216, 212);
+    padding: 120px;
+}
+.footer-content{
+    text-align: center;
+    background-color: #FFF2F1;
+    padding: 147px 265px;
+}
+.footer-content h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: ##1F1F1F;
+}
+.footer-content p{
+    font-size: 18px;
+    color: #4E4E4E;
+}
+.footer-content .mail{
+    border-radius: 10px 0px 0px 10px;
+    padding: 10px 80px 10px 20px;
+    font-size: 20px;
+    color: #707070ae;
+    border: none;
+}
+.last-btn{
+    background-color: #FF136F;
+    padding: 9.5px 30px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+}
