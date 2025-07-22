@@ -296,6 +296,7 @@
 
   .footer-content {
     padding: 10px 50px;
+    border-radius: 6px;
   }
   .footer-content .mail {
     border-radius: 10px;
@@ -303,5 +304,12 @@
     font-size: 20px;
     color: #707070ae;
     border: none;
+  }
+  .footer-sec {
+    /* background-color: rgb(202, 216, 212); */
+    padding: 15px;
+  }
+  .last-btn {
+    border-radius: 10px;
   }
 }
