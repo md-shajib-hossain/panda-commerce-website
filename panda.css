@@ -275,6 +275,14 @@
 /*  Responsive for mobile */
 
 @media screen and (max-width: 576px) {
+  .black-btn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
   .nav-parent {
     flex-direction: column;
   }
@@ -343,6 +351,14 @@
 /* Tab or mbl Rotate responsive */
 
 @media screen and (min-width: 576.1px) and (max-width: 768px) {
+  .black-btn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
   .nav-parent {
     flex-direction: column;
   }
@@ -351,6 +367,7 @@
   }
   .nav-links {
     flex-direction: column;
+    padding: 0;
   }
   .hero-section {
     flex-direction: column;
