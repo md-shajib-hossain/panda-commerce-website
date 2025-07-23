@@ -22,6 +22,13 @@
   padding: 10px 20px;
   border: none;
 }
+.black-btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 6px;
+  cursor: pointer;
+}
 * {
   max-width: 1480px;
   margin: 5px auto;
@@ -43,9 +50,18 @@
   align-items: center;
   gap: 20px;
 }
+.nav-links li:hover {
+  background-color: #ff136f;
+  color: white;
+  border-radius: 8px;
+  transition-duration: 0.5s;
+}
 .nav-links li {
   list-style: none;
   color: #707070;
+  box-sizing: content-box;
+  padding: 10px;
+  /* border: 2px solid #64646479; */
 }
 .srcbr {
   position: relative;
@@ -98,6 +114,9 @@
 .hero-section button {
   background-color: #ff136f;
   color: white;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 9px #5a59597d;
   border-radius: 6px;
   padding: 16px 25px;
   border: none;
@@ -105,6 +124,10 @@
   font-weight: 500;
 }
 
+.hero-section button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 /* Catagory section starts */
 .catagory-heading {
   font-size: 20px;
